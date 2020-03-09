@@ -106,3 +106,18 @@ Its good to Use raw
 To print the variable based on the Datatype, 
 Its good to Use f-String
  */
+
+/* Multi Line String
+To write Multi line String, We can use """(triple double quotes).
+*/
+
+println(raw"""$name is $age
+       year old and secured
+       $marks
+       """)
+
+
+println(raw"""$name is $age
+       year old and secured
+       $marks
+       """.stripMargin)
