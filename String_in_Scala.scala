@@ -44,6 +44,7 @@ where
 %d is for integer
 %f is for double/float
 
+/*
 =======================================
          STRING INTERPOLATION
 =======================================
@@ -51,6 +52,7 @@ where
 1. Interpolating Object into an String
 
 It can be Understand in an easy way that how to pass the Variable inside an string
+*/
 
 val name = "Ankur"
 val age = 28
