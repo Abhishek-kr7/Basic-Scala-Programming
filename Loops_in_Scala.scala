@@ -106,6 +106,21 @@ OR requires any of the true condition
 */
 
 /*
+else-if Loop
+*/
+val x = 24
+val y = 23
+val z = 25
+
+if(x > y && x > z){
+  println("X is the Biggest Number")
+}else if(x > y && x < z){
+  println("Z is Greatest")
+}else if(x < y && y > z){
+  println("Y is the Greatest")
+}
+
+/*
 ====================================
         WHILE LOOP
 ====================================
