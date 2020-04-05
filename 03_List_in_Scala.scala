@@ -81,3 +81,15 @@ To get the element based on index position
 println(mylist(0))
 
 //This will print the element at 0 position in the list
+
+/*
+Create a Mutable List
+*/
+
+import scala.collection.mutable.ListBuffer
+
+var muteList = new ListBuffer[String]()
+
+/*
+This List will be Mutable and we can add or Modify the Elements
+*/
