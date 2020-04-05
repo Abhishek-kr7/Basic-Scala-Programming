@@ -1,7 +1,9 @@
+/*
 ====================================
         Function In Scala
 ====================================
 Syntax:
+*/
 
 def functionName(parameters:typeofparameters):returntypeoffunction={
 //statements to be executed
