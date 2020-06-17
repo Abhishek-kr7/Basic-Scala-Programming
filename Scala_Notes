@@ -1,0 +1,63 @@
+Scala is Multi Paradigm Programming language that support both Object and Functional Programming.
+
+Class
+A class can be defined as a blueprint from which you can create an individual object. Class doesn't consume any space.
+
+Object
+An Object can be defined as an instance of a class. An object contains an address and takes up some space in memory. 
+Objects can communicate without knowing the details of each other's data or code. 
+The only necessary thing is the type of message accepted and the type of response returned by the objects.
+
+Polymorphism
+If one task is performed in different ways, it is known as polymorphism. 
+For example: to convince the customer differently, to draw something, for example, shape, triangle, rectangle, etc.
+In Java, we use method overloading and method overriding to achieve polymorphism.
+Another example can be to speak something; for example, a cat speaks meow, dog barks woof, etc.
+
+Function
+Map/FlatMap/Filter/Groupby/Sortby/Sortwith
+
+Function type:
+Currying/Higher Order Function/Partial Function/Partially Applied Functions
+
+Case Class:
+Used to build domain object
+Case class me new nahi use krna padta
+Companion object -- Singleton Objects
+It has apply method which help create object without  new keyword
+
+Unapply Method - Used to de construct an object. It extract out the constructer parameters. patter matching can be attained by 
+
+Serializable
+
+Scala is Multi Paradigm Programming language that support both Object and Functional Programming.
+
+Functional program
+Writing program using pure functions only
+
+Pure Function
+Function Which don't have any Side effects and have 3 characteristics
+1. total
+For every input there should be an output
+2. Deterministic
+For Same input it should give same output every time
+3. It should not deal with outside world variable
+
+Side Effects
+Throwing an Error 
+Mutating Variable
+Writing/reading from a to a file 
+
+Constructs in Scala
+
+Val - immutable reference to a value
+Var - Mutable reference to a value
+
+LazyVal - won't return untill action being performed
+Def - Lazyval will evaluate only once while def will evaluate as many time as it get calls
+
+
+Type Class in Scala
+
+
+Functure vs Monad
